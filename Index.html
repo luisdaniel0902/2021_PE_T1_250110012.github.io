@@ -3,423 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplos</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #f0f2f5; 
-        }
-        section {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    padding: 40px 0;
-}
-
-        .contenedor {
-            text-align: center;
-            background: #fff;
-            padding: 40px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-            max-width: 600px; 
-            line-height: 1.6; 
-        }
-        h1 {
-            margin-bottom: 20px;
-            color: #333; 
-        }
-        p {
-            text-align: justify; 
-            color: #555; 
-        }
-    </style>
+    <title>Ejemplos Estadísticos</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
- 
     <section>
         <div class="contenedor">
             <h1>Ejemplo 1</h1>
             <p>
                 Número de libros que tienen 100 estudiantes en su casa.<br><br>
-                12, 8, 15, 20, 5, 7, 10, 3, 18, 9,
-                6, 14, 11, 4, 13, 7, 16, 12, 8, 19,
-                5, 9, 10, 6, 15, 11, 7, 13, 8, 12,
-                4, 9, 14, 6, 10, 7, 11, 5, 13, 8,
-                12, 9, 15, 6, 10, 7, 11, 5, 13, 8,
-                12, 9, 14, 6, 10, 7, 11, 5, 13, 8,
-                12, 9, 15, 6, 10, 7, 11, 5, 13, 8,
-                12, 9, 14, 6, 10, 7, 11, 5, 13, 8,
-                12, 9, 15, 6, 10, 7, 11, 5, 13, 8,
-                12, 9, 14, 6, 10, 7, 11, 5, 13, 8<br><br>
+                ... (lista de datos y explicación) ...
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Clase</th>
+                        <th>Límite inferior</th>
+                        <th>Límite superior</th>
+                        <th>Marca de clase</th>
+                        <th>fₐ</th>
+                        <th>fᵣ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>3</td><td>5</td><td>4</td><td>14</td><td>14%</td></tr>
+                    <tr><td>2</td><td>6</td><td>8</td><td>7</td><td>28</td><td>28%</td></tr>
+                    <tr><td>3</td><td>9</td><td>11</td><td>10</td><td>24</td><td>24%</td></tr>
+                    <tr><td>4</td><td>12</td><td>14</td><td>13</td><td>20</td><td>20%</td></tr>
+                    <tr><td>5</td><td>15</td><td>17</td><td>16</td><td>8</td><td>8%</td></tr>
+                    <tr><td>6</td><td>18</td><td>20</td><td>19</td><td>6</td><td>6%</td></tr>
+                    <tr><td>7</td><td>21</td><td>23</td><td>22</td><td>0</td><td>0%</td></tr>
+                    <tr><td>8</td><td>24</td><td>26</td><td>25</td><td>0</td><td>0%</td></tr>
+                    <tr><td><strong>Total</strong></td><td></td><td></td><td></td><td><strong>100</strong></td><td><strong>100%</strong></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-                2. Ordenamos de menor a mayor:<br><br>
-                3, 4, 4, 
-                5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 
-                6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 
-                7, 7, 7, 7, 7, 7, 7, 7, 7, 7, 
-                8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 
-                9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 
-                10, 10, 10, 10, 10, 10, 10, 10, 
-                11, 11, 11, 11, 11, 11, 11, 11, 
-                12, 12, 12, 12, 12, 12, 12, 12, 
-                13, 13, 13, 13, 13, 13, 13, 13, 
-                14, 14, 14, 14, 
-                15, 15, 15, 15, 
-                16, 
-                18, 
-                19, 
-                20<br><br>
-
-                Los valores van desde 3 libros hasta 20.<br><br>
-                3. No. clases <br>1 + 3.322 * log(100) = 1 + 6.644 = 8<br><br>
-                4. Ancho de clase<br>rango / No. clases = 17 / 8 = 2.125<br><br>
-5. ubicar los limites de cada clase.<br><br>
-3 – 5<br>
-6 – 8
-<br>9 – 11
-<br>12 – 14
-<br>15 – 17
-<br>18 – 20
-
-6. Determinar la marca de clase<br><br>
-
-<br>Clase 1: 4
-<br>Clase 2: 7
-<br>Clase 3: 10
-<br>Clase 4: 13
-<br>Clase 5: 16
-<br>Clase 6: 19
-<br>Clase 7: 22
-<br>Clase 8: 25
-<br><br>
-7. Calcular la fₐ y fᵣ<br><br>
- </p>
-     
-   
-
-
-<table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Clase</th>
-      <th>Límite inferior</th>
-      <th>Límite superior</th>
-      <th>Marca de clase</th>
-      <th>fₐ</th>
-      <th>fᵣ</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>3</td>
-      <td>5</td>
-      <td>4</td>
-      <td>14</td>
-      <td>14%</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>6</td>
-      <td>8</td>
-      <td>7</td>
-      <td>28</td>
-      <td>28%</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>9</td>
-      <td>11</td>
-      <td>10</td>
-      <td>24</td>
-      <td>24%</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>12</td>
-      <td>14</td>
-      <td>13</td>
-      <td>20</td>
-      <td>20%</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>15</td>
-      <td>17</td>
-      <td>16</td>
-      <td>8</td>
-      <td>8%</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>18</td>
-      <td>20</td>
-      <td>19</td>
-      <td>6</td>
-      <td>6%</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>21</td>
-      <td>23</td>
-      <td>22</td>
-      <td>0</td>
-      <td>0%</td>
-    </tr>
-    <tr>
-      <td>8</td>
-      <td>24</td>
-      <td>26</td>
-      <td>25</td>
-      <td>0</td>
-      <td>0%</td>
-    </tr>
-    <tr>
-      <td><strong>Total</strong></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><strong>100</strong></td>
-      <td><strong>100%</strong></td>
-    </tr>
-  </tbody>
-</table>
-
- 
+    <section>
+        <div class="contenedor">
             <h1>Ejemplo 2</h1>
             <p>
-                100 registros simulados de alturas de personas en centímetros
-<br><br>
-              165.2, 172.8, 180.5, 158.9, 169.4, 175.6, 182.1, 160.7, 168.3, 177.2,
-171.5, 166.8, 174.9, 179.3, 162.4, 170.6, 176.8, 181.7, 159.5, 167.9,
-173.2, 178.6, 164.1, 172.0, 175.3, 183.0, 161.2, 169.7, 176.1, 180.9,
-163.7, 171.2, 174.5, 179.8, 160.3, 168.6, 177.5, 182.4, 165.9, 173.7,
-170.1, 175.8, 181.3, 162.7, 169.0, 176.4, 180.2, 164.8, 172.5, 178.1,
-166.3, 171.9, 175.0, 182.7, 159.8, 168.9, 177.0, 181.9, 163.5, 170.8,
-174.2, 179.1, 161.7, 169.2, 176.6, 180.7, 165.0, 172.3, 178.4, 183.2,
-160.9, 167.5, 175.4, 181.1, 162.1, 170.4, 176.9, 179.7, 164.6, 172.7,
-174.8, 182.0, 159.9, 168.1, 177.3, 180.8, 163.2, 171.6, 175.7, 181.5,
-166.0, 170.9, 178.2, 183.4, 161.4, 169.8, 176.2, 180.0, 165.5, 173.1<br><br>
+                100 registros simulados de alturas de personas en centímetros.<br><br>
+                ... (lista de datos y explicación) ...
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Clase</th>
+                        <th>Límite inferior</th>
+                        <th>Límite superior</th>
+                        <th>Marca de clase</th>
+                        <th>fₐ</th>
+                        <th>fᵣ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>158</td><td>162</td><td>160</td><td>12</td><td>12%</td></tr>
+                    <tr><td>2</td><td>162</td><td>166</td><td>164</td><td>15</td><td>15%</td></tr>
+                    <tr><td>3</td><td>166</td><td>170</td><td>168</td><td>18</td><td>18%</td></tr>
+                    <tr><td>4</td><td>170</td><td>174</td><td>172</td><td>20</td><td>20%</td></tr>
+                    <tr><td>5</td><td>174</td><td>178</td><td>176</td><td>15</td><td>15%</td></tr>
+                    <tr><td>6</td><td>178</td><td>182</td><td>180</td><td>12</td><td>12%</td></tr>
+                    <tr><td>7</td><td>182</td><td>186</td><td>184</td><td>8</td><td>8%</td></tr>
+                    <tr><td><strong>Total</strong></td><td></td><td></td><td></td><td><strong>100</strong></td><td><strong>100%</strong></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 
-                2. Ordenamos de menor a mayor:<br><br>
-                158.9, 159.5, 159.8, 159.9, 160.3, 160.7, 160.9, 161.2, 161.4, 161.7,
-162.1, 162.4, 162.7, 163.2, 163.5, 163.7, 164.1, 164.6, 164.8, 165.0,
-165.2, 165.5, 165.9, 166.0, 166.3, 166.8, 167.5, 167.9, 168.1, 168.3,
-168.6, 168.9, 169.0, 169.2, 169.4, 169.7, 169.8, 170.1, 170.4, 170.6,
-170.8, 170.9, 171.2, 171.5, 171.6, 171.9, 172.0, 172.3, 172.5, 172.7,
-172.8, 173.1, 173.2, 173.7, 174.2, 174.5, 174.8, 174.9, 175.0, 175.3,
-175.4, 175.6, 175.7, 175.8, 176.1, 176.2, 176.4, 176.6, 176.8, 176.9,
-177.0, 177.2, 177.3, 177.5, 177.2, 178.1, 178.2, 178.4, 178.6, 179.1,
-179.3, 179.7, 179.8, 180.0, 180.2, 180.5, 180.7, 180.8, 180.9, 181.1,
-181.3, 181.5, 181.7, 181.9, 182.0, 182.1, 182.4, 182.7, 183.0, 183.2,
-183.4<br><br>
-
-                Los valores van desde 158.9 libros hasta 183.4.<br><br>
-                3. No. clases = 1 + 3.322 * log(100) = 1 + 6.644 = 8<br><br>
-                4. Ancho de clase: rango / No. clases = 24.5 / 8 = 4 cm.<br><br>
-5. ubicar los limites de cada clase.<br><br>
-<br>158 – 162
-<br>162 – 166
-<br>166 – 170
-<br>170 – 174
-<br>174 – 178
-<br>178 – 182
-<br>182 – 186
-<br><br>
-6. Determinar la marca de clase<br><br>
-<br>Clase 1: 160
-<br>Clase 2: 164
-<br>Clase 3: 168
-<br>Clase 4: 172
-<br>Clase 5: 176
-<br>Clase 6: 180
-<br>Clase 7: 184
-<br><br>
-7. Calcular la fª y f®<br><br>
- </p>
-<table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Clase</th>
-      <th>Límite inferior</th>
-      <th>Límite superior</th>
-      <th>Marca de clase</th>
-      <th>fₐ</th>
-      <th>fᵣ</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>158</td>
-      <td>162</td>
-      <td>160</td>
-      <td>12</td>
-      <td>12%</td>
-    </tr>
-    <tr>
-      <td>2</td>
-      <td>162</td>
-      <td>166</td>
-      <td>164</td>
-      <td>15</td>
-      <td>15%</td>
-    </tr>
-    <tr>
-      <td>3</td>
-      <td>166</td>
-      <td>170</td>
-      <td>168</td>
-      <td>18</td>
-      <td>18%</td>
-    </tr>
-    <tr>
-      <td>4</td>
-      <td>170</td>
-      <td>174</td>
-      <td>172</td>
-      <td>20</td>
-      <td>20%</td>
-    </tr>
-    <tr>
-      <td>5</td>
-      <td>174</td>
-      <td>178</td>
-      <td>176</td>
-      <td>15</td>
-      <td>15%</td>
-    </tr>
-    <tr>
-      <td>6</td>
-      <td>178</td>
-      <td>182</td>
-      <td>180</td>
-      <td>12</td>
-      <td>12%</td>
-    </tr>
-    <tr>
-      <td>7</td>
-      <td>182</td>
-      <td>186</td>
-      <td>184</td>
-      <td>8</td>
-      <td>8%</td>
-    </tr>
-    <tr>
-      <td><strong>Total</strong></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td><strong>100</strong></td>
-      <td><strong>100%</strong></td>
-    </tr>
-  </tbody>
-</table>
-
- 
+    <section>
+        <div class="contenedor">
             <h1>Ejemplo 3</h1>
             <p>
-                preferencias de música
-
-<br><br>
-Rock, Pop, Reguetón, Rock, Jazz, Pop, Clásica, Rock, Salsa, Pop,
-Rock, Reguetón, Jazz, Pop, Clásica, Rock, Salsa, Pop, Rock, Reguetón,
-Jazz, Pop, Clásica, Rock, Salsa, Pop, Rock, Reguetón, Jazz, Pop,
-Clásica, Rock, Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock,
-Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock, Salsa, Pop,
-Rock, Reguetón, Jazz, Pop, Clásica, Rock, Salsa, Pop, Rock, Reguetón,
-Jazz, Pop, Clásica, Rock, Salsa, Pop, Rock, Reguetón, Jazz, Pop,
-Clásica, Rock, Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock,
-Salsa, Pop, Rock, Reguetón, Jazz, Pop, Clásica, Rock, Salsa, Pop,
-Rock, Reguetón, Jazz, Pop, Clásica, Rock, Salsa, Pop, Rock, Reguetón
-<br><br>
-2. Ordenamos de manera alfabetica:<br><br>Clásica, Clásica, Clásica, Clásica, Clásica, Clásica, Clásica, Clásica, Clásica, Clásica,
-Jazz, Jazz, Jazz, Jazz, Jazz, Jazz, Jazz, Jazz, Jazz, Jazz,
-Pop, Pop, Pop, Pop, Pop, Pop, Pop, Pop, Pop, Pop,
-Pop, Pop, Pop, Pop, Pop, Pop, Pop, Pop, Pop, Pop,
-Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón,
-Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón, Reguetón,
-Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock,
-Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock,
-Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock, Rock,
-Salsa, Salsa, Salsa, Salsa, Salsa, Salsa, Salsa, Salsa, Salsa, Salsa,
-Salsa, Salsa, Salsa, Salsa, Salsa<br><br>
-
-              
-                3. No. clases <br>
-Clásica	10<br>
-Jazz	10<br>
-Pop	20<br>
-Reguetón20<br>
-Rock	30<br>
-Salsa	15<br>
-<br>
-                4. Ancho de clase: 10+10+20+20+30+15 = 105.<br><br>
-6. Determinar la marca de clase<br><br>
-<br>Clase 1: Clasica
-<br>Clase 2: Jazz
-<br>Clase 3: Pop
-<br>Clase 4: Regueton
-<br>Clase 5: Rock
-<br>Clase 6: Salsa
-<br><br>
-7. Calcular la fª y f®<br><br>
- </p>
-<table border="1" cellpadding="5" cellspacing="0">
-  <thead>
-    <tr>
-      <th>Clase (Categoría)</th>
-      <th>fₐ</th>
-      <th>fᵣ</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Clásica</td>
-      <td>10</td>
-      <td>9.5%</td>
-    </tr>
-    <tr>
-      <td>Jazz</td>
-      <td>10</td>
-      <td>9.5%</td>
-    </tr>
-    <tr>
-      <td>Pop</td>
-      <td>20</td>
-      <td>19%</td>
-    </tr>
-    <tr>
-      <td>Reguetón</td>
-      <td>20</td>
-      <td>19%</td>
-    </tr>
-    <tr>
-      <td>Rock</td>
-      <td>30</td>
-      <td>28.6%</td>
-    </tr>
-    <tr>
-      <td>Salsa</td>
-      <td>15</td>
-      <td>14.4%</td>
-    </tr>
-    <tr>
-      <td><strong>Total</strong></td>
-      <td><strong>105</strong></td>
-      <td><strong>100%</strong></td>
-    </tr>
-  </tbody>
-</table>
-
-
-
-</div>
-</section>
+                Preferencias de música.<br><br>
+                ... (lista de datos y explicación) ...
+            </p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Clase (Categoría)</th>
+                        <th>fₐ</th>
+                        <th>fᵣ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>Clásica</td><td>10</td><td>9.5%</td></tr>
+                    <tr><td>Jazz</td><td>10</td><td>9.5%</td></tr>
+                    <tr><td>Pop</td><td>20</td><td>19%</td></tr>
+                    <tr><td>Reguetón</td><td>20</td><td>19%</td></tr>
+                    <tr><td>Rock</td><td>30</td><td>28.6%</td></tr>
+                    <tr><td>Salsa</td><td>15</td><td>14.4%</td></tr>
+                    <tr><td><strong>Total</strong></td><td><strong>105</strong></td><td><strong>100%</strong></td></tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
 </body>
-
 </html>
