@@ -5,12 +5,12 @@
 }
 
 :root {
-    --color-primario: #1e40af;
-    --color-secundario: #0f172a;
-    --color-fondo: #f1f5f9;
-    --color-card: #ffffff;
-    --color-texto: #334155;
-    --color-borde: #e2e8f0;
+    --primario: #1e40af;
+    --secundario: #0f172a;
+    --fondo: #f1f5f9;
+    --card: #ffffff;
+    --texto: #334155;
+    --borde: #e2e8f0;
 
     --radio: 12px;
     --sombra: 0 8px 20px rgba(0, 0, 0, 0.08);
@@ -19,8 +19,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, sans-serif;
-    background: var(--color-fondo);
-    color: var(--color-texto);
+    background: var(--fondo);
+    color: var(--texto);
     line-height: 1.7;
 }
 
@@ -32,7 +32,7 @@ section {
     width: 90%;
     max-width: 1100px;
     margin: auto;
-    background: var(--color-card);
+    background: var(--card);
     padding: 40px;
     border-radius: var(--radio);
     box-shadow: var(--sombra);
@@ -44,10 +44,10 @@ section {
 }
 
 h1 {
-    color: var(--color-primario);
+    color: var(--primario);
     margin-bottom: 15px;
     font-size: 1.8rem;
-    border-left: 6px solid var(--color-primario);
+    border-left: 6px solid var(--primario);
     padding-left: 12px;
 }
 
@@ -66,7 +66,7 @@ table {
 }
 
 thead {
-    background: var(--color-primario);
+    background: var(--primario);
     color: white;
 }
 
@@ -90,7 +90,7 @@ tbody tr:hover {
 }
 
 td strong {
-    color: var(--color-secundario);
+    color: var(--secundario);
 }
 
 @media (max-width: 768px) {
